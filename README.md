@@ -1,1 +1,2 @@
 # proyectoFinal
+El proyecto trata sobre una tienda online de una cafetería (falsa) ubicada en Palermo. Me dediqué más que todo al frontend, diseñando la página desde cero con mis propias ideas que iban surgiendo en el camino. El poco JS que logré implementar está en la parte del formulario, el cual al presionar el botón enviar muestra una alerta de que el formulario fue completado y se reinicia. Me faltó hacer que el sitio web fuera responsive, lo cual es algo que aún no domino.
