@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+h2{
+    font-size: 1.5em;
+}
+img{
+    width: 5rem;
+}
+/*Cabecera*/
+header{
+    display: flex;
+    background-color: #291e16;;
+    height: 10rem;
+    padding: 0 10%;
+    justify-content: space-between;
+    
+}
+
+.head_logo img{
+    display: flex;
+}
+.head_logo img{
+    width: 13rem;
+}
+.head_nav{
+    text-transform: uppercase;
+    display: flex;
+    font-size: 1em;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+/*Contenido*/
+main{
+    color: #582F0E;
+    background-color: #F5E4C3;
+    font-size: 1.5em;
+}
+section{
+    margin-bottom: 2rem;
+}
+.news_img{
+    display: flex;
+    background-image: url('../img/cafe.jpg');
+    background-size: cover;
+    height: 15rem;
+}
+.news_img div{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.news_img p{
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+.news_img a{
+    display: flex;
+    font-size: 0.8em;
+    background-color: #B5B488;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.separador{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #21150c;
+    width: 100%;
+    height: 20rem;
+
+}
+.separador div{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.frase{
+    font-size: 0.7em;
+    margin-bottom: 1rem;
+}
+strong{
+    color: rgb(255, 222, 59);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+}
+.separador img{
+    width: 100%;
+    height: 100%;
+}
+.sep2_name{
+    color: rgb(200, 251, 106);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-shadow: rgb(94, 255, 0) 1px 0 10px;
+}
+.separador i{
+    font-size: 0.9em;
+}
+section h2{
+    text-shadow: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.prod_cont{
+    flex-wrap: wrap;
+    display: flex;
+    height: 20rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    
+}
+.prod_art{
+    font-size: 2em;
+    width: 12rem;
+    height: 85%;
+}
+.prod_art img{
+    border: #432B17 solid 0.2rem;
+    border-radius: 3px;
+    width: 12rem;
+    height: 12rem;
+}
+.prod_art p{
+    text-align: center;
+    color: black;
+}
+.name{
+    font-size: 0.35em;
+}
+.price{
+    font-size: 0.25em;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+.prod_art a{
+    display: flex;
+    margin: 0 auto;
+    height: 2rem;
+    width: 85%;
+    background-color: #432B17;
+    font-size: 0.25em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.prod_otros{
+    display: flex;
+    background-size: cover;
+    border: #432B17 solid 0.2rem;
+    border-radius: 3px;
+    width: 15rem;
+    height: 15rem;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    transition: all 0.2s ease-in;
+}
+.prod_otros:hover{
+    transition-duration: 0.2s;
+    transform: translateY(-1rem); 
+
+}
+.otros1{
+    background-image: url("../img/capsulas.webp");
+}
+.otros2{
+    background-image: url("../img/maquina.jpg");
+}
+.otros3{
+    background-image: url("../img/cafe_grano.jpg");
+}
+.otros4{
+    background-image: url("../img/molinillo.jpeg");
+}
+
+#local-img{
+    display: flex;
+    width: 100%;
+    height: 22rem;
+    align-items: center;
+
+}
+#local-img img{
+    margin: 0 auto;
+    width: auto;
+    height: 80%;
+}
+.map-container {
+    width: 100%;
+    height: 400px;
+  }
+footer{
+    font-size: 1em;
+    background-color:#556B2F;
+    color: rgb(255, 255, 255);
+}
+#contact{
+    padding-top: 2rem;
+    width: 22rem;
+}
+#contact li{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+#contact li:hover{
+    color: rgb(82, 1, 1);
+    transition-duration: 0.5s;
+}
+#contact li i{
+    margin-right: 0.5rem;
+}
+footer h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: end;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.parraf-foot{
+    margin-bottom: 1rem;
+    color: white;
+    margin-left: 5rem;
+}
+form{
+    margin: auto;
+    width: 30rem;
+}
+footer input{
+    display: block;
+    margin: auto;
+}
+#name{
+    width: 30rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+#email{
+    width: 30rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+#chequear{
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+#submit{
+    margin-left: 0;
+    background-color:#432B17;
+    color: white;
+    border: 0.1rem solid white;
+    width: 10rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+#submit:hover{
+    text-decoration: underline;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(82, 1, 1);
+}
+.footer-pl{
+    font-size: 0.8em;
+    color: white;
+    margin: 0 0 2rem 5rem;
+}
+#navegador{
+    background-color: #323e1b;
+    display: flex;
+    justify-content: space-around;
+    height: rem;
+    padding: 1rem;
+}
+.pCafe{
+    font-size: 0.9em;
+    color: rgb(177, 177, 177);
+    display: inline;
+
+}
+.link a{
+    font-size: 0.9em;
+    margin-left: 1rem;
+    color: rgb(212, 212, 212);
+}
+.link a:hover{
+    color: white;
+    transition-duration:0.5s ;
+}
+section:last-of-type{
+    margin-bottom: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
